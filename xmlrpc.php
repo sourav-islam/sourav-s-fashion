@@ -26,7 +26,7 @@ if ( isset( $HTTP_RAW_POST_DATA ) ) {
 	$HTTP_RAW_POST_DATA = trim( $HTTP_RAW_POST_DATA );
 }
 // phpcs:enable
-
+// just 
 /** Include the bootstrap for setting up WordPress environment */
 require_once __DIR__ . '/wp-load.php';
 
